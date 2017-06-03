@@ -1,6 +1,6 @@
-Python から dashDB をアクセスするサンプリコード on Bluemix or local
+# Python から dashDB をアクセスするサンプリコード on Bluemix or local
 
-# 事前準備事項
+## 事前準備事項
 
 このアプリを動作させるには、以下のアイテムが必要です。 開発プラットフォームに合わせて準備をします。
 
@@ -12,7 +12,7 @@ Python から dashDB をアクセスするサンプリコード on Bluemix or lo
 Bluemix CLI は bx login して 組織とスペースを設定しておきます。
 
 
-# 本コードのクローン
+## 本コードのクローン
 このリポジトリを開発環境PCへコピーするために、下記のコマンド実行します。 
 
 ~~
@@ -25,7 +25,7 @@ cd python-dashDB
 はじめにdashDBを起動しておく必要があります。 Bluemix のカタログ [dashDB for Analytics](https://console.ng.bluemix.net/catalog/services/dashdb-for-analytics?env_id=ibm:yp:us-south&taxonomyNavigation=cf-apps)からdashDBを作成できます。
 
 
-# ローカルの実行
+## ローカルの実行
 
 必要な python パッケージのインストール
 
@@ -41,7 +41,7 @@ python main.py
 ブラウザから http://localhost:8080/ をアクセスして、python から dashDB をアクセスした結果を見ることができます。
 
 
-# Bluemix へのデプロイ準備
+## Bluemix へのデプロイ準備
 
 manifest.yml を編集します。 dashDBの最後の２文字は作成時に動的にアサインされるので、Bluemix のダッシュボードから調べて書き換えます。
 
@@ -56,7 +56,7 @@ applications:
 ~~~
   
 
-# Bluemix デプロイ実行
+## Bluemix デプロイ実行
 このフォルダで次のコマンドを実行して、デプロイします。
 
 ~~~
