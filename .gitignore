@@ -61,4 +61,7 @@ target/
 # Mac files
 *.DS_Store
 
+# for emacs
+*~
+
 vcap-local.json
