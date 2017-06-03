@@ -27,10 +27,22 @@ cd python-dashDB
 
 ## ローカルの実行
 
-データベースアクセスの設定
+dashDBのサービス資格情報を **vcap-local.json** 設定します。 Bluemix のポータル サービス dashDB からサービス資格情報を作成して、ssldsn の項目をコピペでセットします。
 
-
-
+~~~
+{
+    "services": {
+	"dashDB": [
+	    {
+		"credentials": {
+		    "ssldsn": サービス資格情報で置き換える"
+		},
+		"label": "dashDB"
+	    }
+	]
+    }
+}
+~~~
 必要な python パッケージのインストール
 
 ~~~
