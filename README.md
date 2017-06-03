@@ -27,7 +27,7 @@ cd python-dashDB
 
 ## ローカルの実行
 
-dashDBのサービス資格情報を **vcap-local.json** 設定します。 Bluemix のポータル サービス dashDB からサービス資格情報を作成して、ssldsn の項目をコピペでセットします。
+dashDBのサービス資格情報を **vcap-local.json** に設定します。 Bluemix のポータル サービス dashDB からサービス資格情報を作成して、ssldsn の項目をコピペでセットします。
 
 ~~~
 {
