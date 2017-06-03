@@ -1,4 +1,4 @@
-# Python から dashDB をアクセスするサンプリコード on Bluemix or local
+# Python から dashDB をアクセスする on Bluemix or local
 
 ## 事前準備事項
 
